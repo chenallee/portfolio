@@ -36,15 +36,21 @@
         <div class="flexbox-container">
             <!-- Form -->
             <form class="contact-form">
-                Name:
-                <input type="text" name="name">
-                Email:
-                <input type="email" name="email">
-                Message:
-                <textarea name="message">
+                <div class="form-section">
+                    Name:
+                    <input type="text" name="name" class="form-field">
+                </div>
+                <div class="form-field">
+                    Email:
+                    <input type="email" name="email" class="form-field">
 
-    </textarea><!-- should i have something else here? -->
-                <input type="submit" value="Submit">
+                </div>
+                <div class="form-section">
+                    Message:
+                    <textarea name="message" class="form-field">
+                        </textarea><!-- should i have something else here? -->
+                </div>
+                <input type="submit" value="Submit" id="submit-button">
             </form>
         </div>
 
