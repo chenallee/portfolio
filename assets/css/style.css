@@ -44,9 +44,12 @@ h1, h2, h3 {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-links a {
     color: #777777;
-    text-decoration: none;
     padding: 0 15px;
     border-right: 1px solid #dddddd;
 }
@@ -100,9 +103,11 @@ input.form-field {
 }
 
 .content{
+    height: 90%;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     padding: 25px;
+    margin: 30px auto;
 }
 
 .dev-name {
@@ -115,13 +120,15 @@ input.form-field {
     flex-wrap: wrap;
     margin: auto;
     justify-content: left;
-} 
+}
 
 
 .flex-item{
-    margin: 5px;
-    height: 200px;
-    width: 250px;
+    margin: 15px 30px 15px 0;
+    height: 250px;
+    width: 275px;
+    position: relative;
+    background-position: bottom;
 }
 
 .content-title {
@@ -133,9 +140,11 @@ input.form-field {
 }
 
 .portfolio-label{
+    width: 100%;
     text-align: center;
     padding: 10px;
-    
+    position: absolute;
+    top: 170px;
 }
 
 #submit-button {
