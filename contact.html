@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
 
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<!-- Header -->
+    <!-- Header -->
     <!-- this module can be reused across the other pages -->
     <header class="header">
-        <div class="content nav-div">
+        <div class="nav-div">
             <h1 class="dev-name">
                 Lee Chenalloy
             </h1>
@@ -25,31 +27,35 @@
     </header>
 
 
-<!-- Main Content Area -->
+    <!-- Main Content Area -->
     <!-- this section is distinctly different per each page -->
-    <div class="flexbox-container content">
+    <div class="content">
         <h2 class="content-title">
             Contact
         </h2>
-    <!-- Form -->
-        <form class="contact-form">
-            Name:
-            <input type="text" name="name">
-            Email:
-            <input type="email" name="email">
-            Message:
-            <textarea name="message"> 
-            
-            </textarea><!-- should i have something else here? -->
-            <input type="submit" value="Submit">
-        </form>
+        <div class="flexbox-container">
+            <!-- Form -->
+            <form class="contact-form">
+                Name:
+                <input type="text" name="name">
+                Email:
+                <input type="email" name="email">
+                Message:
+                <textarea name="message">
+
+    </textarea><!-- should i have something else here? -->
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
     </div>
-    
-<!-- Footer -->
+
+    <!-- Footer -->
     <!-- this module can be reused across the other pages -->
     <footer class="footer">
         Copyright &copy;
     </footer>
 
 </body>
+
 </html>
