@@ -14,14 +14,14 @@
     <!-- Header -->
     <!-- this module can be reused across the other pages -->
     <header class="header">
-        <div class="nav-div">
-            <h1 class="dev-name">
+        <div class="nav-div content-width">
+            <h1 class="page-title style-banner font-head">
                 Lee Chenalloy
             </h1>
-            <nav class="nav-links">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="#">Contact</a>
+            <nav class="nav-links font-main">
+                <a href="index.html" class="alt-link">About</a>
+                <a href="portfolio.html" class="alt-link">Portfolio</a>
+                <a href="#" class="alt-link">Contact</a>
             </nav>
         </div>
     </header>
@@ -29,25 +29,25 @@
 
     <!-- Main Content Area -->
     <!-- this section is distinctly different per each page -->
-    <div class="content">
-        <h2 class="content-title">
+    <div class="content-width content">
+        <h2 class="content-title font-head">
             Contact
         </h2>
-        <div class="flexbox-container">
+        <div>
             <!-- Form -->
-            <form class="contact-form">
-                <div class="form-section">
+            <form class="font-main">
+                <div>
                     Name:
-                    <input type="text" name="name" class="form-field">
+                    <input type="text" name="name" class="max-width">
                 </div>
                 <div class="form-field">
                     Email:
-                    <input type="email" name="email" class="form-field">
+                    <input type="email" name="email" class="max-width">
 
                 </div>
-                <div class="form-section">
+                <div>
                     Message:
-                    <textarea name="message" class="form-field">
+                    <textarea name="message" class="max-width">
                         </textarea><!-- should i have something else here? -->
                 </div>
                 <input type="submit" value="Submit" id="submit-button">
@@ -58,7 +58,7 @@
 
     <!-- Footer -->
     <!-- this module can be reused across the other pages -->
-    <footer class="footer">
+    <footer class="footer pushed-bottom centered-text">
         Copyright &copy;
     </footer>
 
