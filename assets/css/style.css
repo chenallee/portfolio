@@ -55,9 +55,13 @@ h1, h3 {
 h2 {
     color: #4aaaa5 ;
     border-bottom: 1px solid #cccccc;
-    display: block;
+    /* display: block; */
     margin: 0 0 25px 0;
     padding-bottom: 20px;
+}
+
+.heading-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1, h2, h3 {
@@ -69,7 +73,11 @@ a {
     color: #4aaaa5;
 }
 
-
+.banner-style {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1em;
+}
 
 .nav-links a {
     color: #777777;
@@ -154,8 +162,24 @@ input.form-field {
     margin: 15px 30px 15px 0;
     height: 250px;
     width: 35%;
-    position: relative;
+    /* position: relative; */
     background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.flex-banner {
+    
+    margin-top: auto;
+    width: 100%;
+}
+
+.flex-banner span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    
 }
 
 .content-title {
@@ -166,13 +190,17 @@ input.form-field {
     flex-direction: column;
 }
 
-.portfolio-label{
+/* .portfolio-label{
     width: 100%;
     text-align: center;
     padding: 10px;
     position: absolute;
     top: 170px;
-}
+} */
+
+/* .flex-banner {
+    margin-top: auto;
+} */
 
 #submit-button {
     all: unset;
