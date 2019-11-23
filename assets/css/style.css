@@ -38,7 +38,6 @@ header{
 }
 
 .footer{
-    width: 100%;
     padding: 25px 0px 5px 0px;
 
     background-color: var(--dark);
@@ -121,7 +120,6 @@ a:active {
     background-color: var(--accent);
     color: var(--neutral);
     padding: 4%;
-    /* padding: 1em; */
 }
 
 .content-title { /* used for content headers */
@@ -229,18 +227,26 @@ textarea {
 /* button styling */
 #submit-button {
     all: unset;
-    background-color: #4aaaa5;
+    
     margin-top: 15px; 
     padding: 3px 25px;
-    color: #ffffff;
+
+    background-color: var(--accent);
+    color: var(--neutral);
+    border: 1px solid var(--accent);
+
+    
 }
 
 #submit-button:hover {
-    color: rgba(255, 255, 255, 0.5);
+    background-color: var(--neutral);
+    color: var(--accent);
+
+    transition: 300ms;
 }
 
 #submit-button:focus {
-    opacity: 75% ;
+    box-shadow: inset 0 0 10px var(--accent);
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
